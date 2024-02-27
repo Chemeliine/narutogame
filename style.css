@@ -1,0 +1,86 @@
+#gamezone{
+    background-color: blue;
+    height: 350px;
+    width: 650px;
+    border-radius: 30px;
+    border-bottom: 10px solid #0d024b;
+    border-right: 8px solid #0d024b;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1638974300_1-abrakadabra-fun-p-oboi-na-kompyuternii-stol-anime-naruto-1.png);
+    background-size: 100%;
+
+}
+
+body{
+    background-image: url(https://i.artfile.ru/1920x1080_1083541_[www.ArtFile.ru].jpg);
+    background-attachment: fixed;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: wheat;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px;
+}
+
+.btn:hover{
+    background-color: rgb(21, 14, 82);
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 2px 2px rgb(83, 78, 78);
+}
+
+.character{
+    background-color: orange;
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+
+    /* внешний вид */
+    background-image: url(./Sasuke_Part_1.webp);
+    background-size: cover;
+    background-position: center;
+
+    /* в начале не отображаются */
+    display: none;
+}
+
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+/*лишний персонаж*/
+.naruto {
+    background-image: url(./Naruto_newshot.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.comsol{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
